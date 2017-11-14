@@ -1,0 +1,30 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": false,
+        "node": true,
+    },
+    "globals": {},
+    "rules": {
+        "comma-dangle": [
+            "warn",
+            "always"
+        ],
+        "quotes": [
+            "warn",
+            "double",
+            {
+                "avoidEscape": false
+            }
+        ],
+        "indent": [
+            "warn",
+            4,
+            {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1,
+                "outerIIFEBody": 1
+            }
+        ]
+    }
+}
